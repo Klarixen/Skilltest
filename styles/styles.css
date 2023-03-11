@@ -15,7 +15,6 @@ body {
   color: white;
   background-image: url(../images/background1.png);
   height: 820px;
-  line-height: 0;
 }
 .header form {
   display: flex;
@@ -27,14 +26,13 @@ body {
 .header .scroll {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-button {
-  font-family: "Aleo", serif;
+.header .scroll a {
   color: #FFFFFF;
-  padding: 10px;
-  min-width: 42px;
-  min-height: 42px;
+  text-decoration: none;
+  padding-top: 20px;
 }
 
 .nav-bar {
@@ -46,7 +44,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 80%;
+  width: 90%;
   margin-left: 20px;
 }
 .nav-bar .nav-content h4 {
@@ -217,12 +215,47 @@ button {
 .quote-section {
   background-image: url(../images/background5.png);
   height: 730px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #333333;
+}
+.quote-card h4 {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+}
+.quote-card p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.quote-card i {
+  color: #5474FD;
+  font-size: 36px;
+}
+
+.quote-quote {
+  padding: 20px;
 }
 
 button {
   background-color: #496BFE;
-  min-width: 50px;
   border: none;
+  font-family: "Aleo", serif;
+  color: #FFFFFF;
+  padding: 10px;
+  min-width: 42px;
+  min-height: 42px;
 }
 
 button:hover {
