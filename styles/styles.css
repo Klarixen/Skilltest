@@ -156,6 +156,49 @@ button {
   background-image: url(../images/background4.png);
   height: 700px;
 }
+.spain-section_second .spain-card {
+  position: relative;
+  top: 20%;
+  left: 60%;
+  padding: 20px;
+}
+
+.spain-card {
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 35%;
+  position: relative;
+  top: 20%;
+  left: 20%;
+  padding: 20px;
+}
+.spain-card .card-theme {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+}
+.spain-card .card-head {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+.spain-card .card-p {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
 
 .quote-section {
   background-image: url(../images/background5.png);
