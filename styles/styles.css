@@ -1,6 +1,7 @@
 body {
   width: 100%;
   height: auto;
+  color: #FFFFFF;
 }
 
 .header .header_content {
@@ -11,7 +12,83 @@ body {
   font-family: "Josefin Sans", sans-serif;
   color: white;
   background-image: url(../images/background1.png);
+  height: 820px;
+}
+.header input {
+  width: 100%;
 }
 .header button {
   font-family: "Aleo", serif;
+}
+
+.nav-bar {
+  background-color: #5474FD;
+  width: 100%;
+  margin-top: 0;
+}
+.nav-bar .nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: end;
+}
+.nav-bar li {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.why-us {
+  background-image: url(../images/background2.png);
+  height: 685px;
+  display: flex;
+  flex-direction: row;
+}
+.why-us .why-us_text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.why-us .why-us_images {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.why-us img {
+  width: 320px;
+}
+
+.icons_container {
+  height: 340px;
+}
+
+.spain-section_first {
+  background-image: url(../images/background3.png);
+  height: 700px;
+}
+
+.spain-section_second {
+  background-image: url(../images/background4.png);
+  height: 700px;
+}
+
+.quote-section {
+  background-image: url(../images/background5.png);
+  height: 730px;
+}
+
+button {
+  background-color: #496BFE;
+  min-width: 50px;
+  border: none;
+}
+
+button:hover {
+  background-color: #7d91ea;
+  cursor: pointer;
 }
