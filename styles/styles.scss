@@ -16,7 +16,7 @@ body {
         font-family: 'Josefin Sans', sans-serif;
         color: white;
         background-image: url(../images/background1.png);
-        height: 820px;
+        min-height: 820px;
         
 
     }
@@ -45,6 +45,7 @@ body {
         
     }
 }
+
 
 
 .nav-bar {
@@ -79,6 +80,7 @@ body {
         color: #3b4570;
         cursor: pointer;
     }
+
 }
 .why-us {
     background-image: url(../images/background2.png);
@@ -86,7 +88,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+
     .why-us_text {
         display: flex;
         flex-direction: column;
@@ -325,8 +327,6 @@ button:hover {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        font-family: 'Aleo', serif;
-        font-weight: 400;
         font-size: 20px;
         line-height: 26px;
     }
@@ -374,11 +374,7 @@ button:hover {
     }
     
 }
-/*@media screen and (max-width: 500px){
-    section {
-        min-width: 100vh;
-        margin: 0;
-    }
+@media screen and (max-width: 500px){
     .nav-bar {
         display: flex;
         flex-wrap: wrap;
@@ -389,4 +385,4 @@ button:hover {
         }
     }
 
-}*/
+}
