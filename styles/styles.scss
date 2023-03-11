@@ -29,14 +29,19 @@ body {
         padding: 15px;
        }
     }
-    button {
-        font-family: 'Aleo', serif;
-    }
+
 
     .scroll {
         display: flex;
         flex-direction: column;
     }
+}
+button {
+    font-family: 'Aleo', serif;
+    color: #FFFFFF;
+    padding: 10px;
+    min-width: 42px;
+    min-height: 42px;
 }
 .nav-bar {
     background-color: #5474FD;
@@ -157,6 +162,17 @@ body {
 .spain-section_second {
     background-image: url(../images/background4.png);
     height: 700px;
+}
+.spain-card {
+    .card-theme {
+
+    }
+    .card-head {
+
+    }
+    .card-p {
+
+    }
 }
 .quote-section {
     background-image: url(../images/background5.png);

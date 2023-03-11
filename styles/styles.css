@@ -24,12 +24,17 @@ body {
 .header form input {
   padding: 15px;
 }
-.header button {
-  font-family: "Aleo", serif;
-}
 .header .scroll {
   display: flex;
   flex-direction: column;
+}
+
+button {
+  font-family: "Aleo", serif;
+  color: #FFFFFF;
+  padding: 10px;
+  min-width: 42px;
+  min-height: 42px;
 }
 
 .nav-bar {
