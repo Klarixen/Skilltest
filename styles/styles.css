@@ -1,5 +1,7 @@
 body {
+  max-width: 1600px;
   width: 100%;
+  margin: 0 auto;
   height: auto;
   color: #FFFFFF;
 }
@@ -13,12 +15,21 @@ body {
   color: white;
   background-image: url(../images/background1.png);
   height: 820px;
+  line-height: 0;
 }
-.header input {
-  width: 100%;
+.header form {
+  display: flex;
+  flex-direction: row;
+}
+.header form input {
+  padding: 15px;
 }
 .header button {
   font-family: "Aleo", serif;
+}
+.header .scroll {
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-bar {
@@ -32,15 +43,24 @@ body {
   justify-content: space-between;
   width: 80%;
 }
+.nav-bar .nav-content h4 {
+  font-family: "Josefin Sans", sans-serif;
+}
 .nav-bar ul {
   display: flex;
   flex-direction: row;
   list-style: none;
   align-items: end;
+  font-family: "Aleo", serif;
 }
-.nav-bar li {
+.nav-bar li a {
   text-decoration: none;
+  color: #FFFFFF;
   margin-left: 20px;
+}
+.nav-bar li a:hover {
+  color: #3b4570;
+  cursor: pointer;
 }
 
 .why-us {
@@ -53,6 +73,20 @@ body {
   display: flex;
   flex-direction: column;
   width: 50%;
+  justify-content: center;
+}
+.why-us .why-us_text h2 {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+}
+.why-us .why-us_text p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
 .why-us .why-us_images {
   display: flex;
@@ -61,10 +95,16 @@ body {
 }
 .why-us img {
   width: 320px;
+  margin: 20px;
 }
 
 .icons_container {
   height: 340px;
+  background-color: #333333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .spain-section_first {
