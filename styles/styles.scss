@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+    height: auto;
+
+}
+.header {
+
+    .header_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        background-image: url(../images/background1.png);
+
+    }
+    button {
+        font-family: 'Aleo', serif;
+    }
+}
