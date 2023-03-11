@@ -21,6 +21,7 @@ body {
 }
 .header form input {
   padding: 15px;
+  width: 100%;
 }
 .header .scroll {
   display: flex;
@@ -161,7 +162,7 @@ body {
   background-image: url(../images/background3.png);
   height: 700px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -169,14 +170,8 @@ body {
   background-image: url(../images/background4.png);
   height: 700px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  /* .spain-card {
-    position: relative;
-    top: 20%;
-    left:60%;
-    padding: 20px;
-   }*/
 }
 
 .spain-card {
@@ -189,6 +184,8 @@ body {
   justify-content: center;
   width: 35%;
   padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .spain-card .card-theme {
   font-family: "Josefin Sans", sans-serif;
@@ -322,19 +319,60 @@ button:hover {
     font-size: 20px;
     line-height: 26px;
   }
-}
-@media screen and (max-width: 500px) {
-  section {
-    min-width: 100vh;
-    margin: 0;
-  }
-  .nav-bar {
+  .spain-section_first {
     display: flex;
-    flex-wrap: wrap;
-    line-height: 1, 5;
-  }
-  .nav-bar ul {
-    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
   }
+  .spain-section_second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .quote-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .quote-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .quote-card h4 {
+    font-family: "Aleo", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .quote-card p {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .quote-card i {
+    color: #5474FD;
+    font-size: 26px;
+  }
 }
+/*@media screen and (max-width: 500px){
+    section {
+        min-width: 100vh;
+        margin: 0;
+    }
+    .nav-bar {
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 1,5;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+}*/
