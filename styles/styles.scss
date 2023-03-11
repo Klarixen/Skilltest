@@ -1,7 +1,7 @@
 body {
     max-width: 1600px;
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
     height: auto;
     color: #FFFFFF;
 
@@ -53,6 +53,7 @@ button {
     flex-direction: row;
     justify-content: space-between;
     width: 80%;
+    margin-left: 20px;
     h4 {
         font-family: 'Josefin Sans', sans-serif;
     }
@@ -81,12 +82,15 @@ button {
     height: 685px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    
     .why-us_text {
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 40%;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
+        margin: 20px;
         h2 {
             font-family: 'Aleo', serif;
             font-style: normal;
@@ -111,6 +115,15 @@ button {
         width: 320px;
         margin: 20px;
     }
+}
+.img-lakehouse {
+    position: relative;
+    top: 20%;
+}
+.img-cliff {
+    position:relative;
+    left: 20%;
+    top: 20%;
 }
 .icons_container {
     height: 340px;
